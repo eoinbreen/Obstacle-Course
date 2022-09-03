@@ -5,10 +5,7 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    //Movement Speed
-    //[SerializeField] float xSpeed = 0;
-    //[SerializeField] float ySpeed = 0;
-    [SerializeField] float zSpeed = 0;
+    
 
 
     // Start is called before the first frame update
@@ -20,8 +17,8 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float xValue = Input.GetAxis("Horizontal");
-        float zValue = Input.GetAxis("Vertical");
+        float xValue = Input.GetAxis("Horizontal");//change x value with left and right keys
+        float zValue = Input.GetAxis("Vertical");//change z value with up and down keys
         transform.Translate(xValue, 0, zValue);
     }
 
