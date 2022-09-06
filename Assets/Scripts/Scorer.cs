@@ -9,7 +9,10 @@ public class Scorer : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        score++;
-        Debug.Log("You have bumped into something " + score + " times");
+        if (collision.gameObject.tag != "Hit")//dont increment score if obstacle has already been hit
+        {
+            score++;
+            Debug.Log("You have bumped into something " + score + " times");
+        }   
     }
 }

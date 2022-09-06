@@ -235,6 +235,7 @@ GameObject:
   - component: {fileID: 557985664}
   - component: {fileID: 557985662}
   - component: {fileID: 557985661}
+  - component: {fileID: 557985668}
   m_Layer: 0
   m_Name: Dropper
   m_TagString: Untagged
@@ -349,6 +350,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &557985668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557985660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad0138506a78db4aae0ae764aa82a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &616893033
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,7 +773,7 @@ GameObject:
   - component: {fileID: 1339036675}
   m_Layer: 0
   m_Name: Blockie
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
