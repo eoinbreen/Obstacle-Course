@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hit
+  - New tag
   layers:
   - Default
   - TransparentFX
