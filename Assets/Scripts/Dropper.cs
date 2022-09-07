@@ -16,7 +16,7 @@ public class Dropper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.time > dropTime)//Turn on renderer and gravity after a certain ammount of time has passed
+        if(Time.time > dropTime)//Turn on mesh renderer and gravity after a certain ammount of time has passed
         {
             dropperRenderer.enabled = true;
             GetComponent<Rigidbody>().useGravity = true;
