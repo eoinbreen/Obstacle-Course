@@ -13,6 +13,11 @@ public class Scorer : MonoBehaviour
         {
             score++;
             Debug.Log("You have bumped into something " + score + " times");
-        }   
+        }
+
+        if (collision.gameObject.tag == "Finish")
+        {
+            Debug.Log("You have made it to the finish tile, Good Job!!");
+        }
     }
 }
